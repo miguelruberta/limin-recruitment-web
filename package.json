@@ -1,0 +1,29 @@
+{
+  "name": "marine-erp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dry Dock Management System marine ERP untuk perencanaan dan biaya dry docking kapal",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "dev:backend": "npm run dev -w backend",
+    "dev:frontend": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write \"backend/src/**/*.js\" \"frontend/src/**/*.{js,vue}\"",
+    "migrate": "npm run migrate -w backend",
+    "seed": "npm run seed -w backend",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "prettier": "^3.4.2"
+  }
+}

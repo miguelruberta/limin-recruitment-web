@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #1e9bff;
+  --color-primary-dark: #1478c8;
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-border: #e5e7eb;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+
+  --status-open: #1e9bff;
+  --status-in-progress: #f59e0b;
+  --status-on-hold: #ef4444;
+  --status-complete: #22a35a;
+
+  --chart-blue: #1e9bff;
+  --chart-green: #4caf50;
+  --chart-pink: #e8639b;
+  --chart-gold: #b8892b;
+  --chart-teal: #14a3c7;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  --font-family: Inter, system-ui, Arial, sans-serif;
+  --font-sm: 12px;
+  --font-md: 14px;
+  --font-lg: 18px;
+  --font-xl: 24px;
+
+  --sidebar-width: 220px;
+  --content-max-width: 1100px;
+}
